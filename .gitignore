@@ -1,1 +1,4 @@
 /out/
+
+//exclude idea settings
+**/.idea
