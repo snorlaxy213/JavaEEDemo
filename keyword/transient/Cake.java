@@ -7,7 +7,7 @@ public class Cake implements Serializable {
     private String shape;
     transient private String color;
 
-    public void setColor(String color) {
+    public void setColor(final String color) {
         this.color = color;
     }
 
@@ -15,7 +15,7 @@ public class Cake implements Serializable {
         return color;
     }
 
-    public void setShape(String shape) {
+    public void setShape(final String shape) {
         this.shape = shape;
     }
 
