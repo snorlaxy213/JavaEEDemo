@@ -1,3 +1,5 @@
+package defaultcode;
+
 public interface Interface2 {
 
     //final 和 default不可以同时修饰同一个方法

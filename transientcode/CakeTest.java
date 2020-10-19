@@ -1,3 +1,5 @@
+package transientcode;
+
 import java.io.*;
 
 public class CakeTest {

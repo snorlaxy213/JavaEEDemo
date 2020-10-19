@@ -1,3 +1,5 @@
+package defaultcode;
+
 public class InterfaceTest implements Interface1,Interface2  {
     //class 中使用default会直接报错
     /*default void hello() {

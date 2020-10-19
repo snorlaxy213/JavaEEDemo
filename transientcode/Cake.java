@@ -1,3 +1,5 @@
+package transientcode;
+
 import java.io.Serializable;
 
 public class Cake implements Serializable {

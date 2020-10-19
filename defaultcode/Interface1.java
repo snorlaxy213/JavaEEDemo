@@ -1,3 +1,5 @@
+package defaultcode;
+
 public interface Interface1 {
 
 
