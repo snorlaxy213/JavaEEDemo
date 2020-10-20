@@ -16,4 +16,13 @@ public class TestRunnable implements Runnable {
         }
     }
 
+    public static void main(String[] args) {
+        // --------------- Runnable ---------------------
+        TestRunnable runnableOne = new TestRunnable(1);
+        TestRunnable runnableTwo = new TestRunnable(2);
+        Thread threadOne = new Thread(runnableOne);
+        Thread threadTwo = new Thread(runnableTwo);
+        threadOne.start();
+        threadTwo.start();
+    }
 }

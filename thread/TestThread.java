@@ -10,4 +10,9 @@ public class TestThread extends Thread {
             count+=2;
         }
     }
+
+    public static void main(String[] args) {
+        TestThread testThread2 = new TestThread();
+        testThread2.start();
+    }
 }

@@ -6,7 +6,7 @@ package thread;
  * main() 属于非守护线程。
  * 在线程启动之前使用 setDaemon() 方法可以将一个线程设置为守护线程。
  */
-public class DaemonTest {
+public class TestDaemon {
     public static void main(String[] args) {
         TestRunnable runnableOne = new TestRunnable(1);
         Thread threadOne = new Thread(runnableOne);
