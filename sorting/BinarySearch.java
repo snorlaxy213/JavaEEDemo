@@ -1,8 +1,6 @@
 package sorting;
 
 import java.util.Arrays;
-import java.util.Collection;
-import java.util.Collections;
 import java.util.List;
 
 public class BinarySearch {
@@ -29,6 +27,6 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         List<Integer> list = Arrays.asList(1,3,13,4,7,6,9,7,15);
-        System.out.println(binarySearch(list, 158));
+        System.out.println(binarySearch(list, 15));
     }
 }
