@@ -7,6 +7,11 @@ import java.util.concurrent.TimeUnit;
 
 public class ExecutorServiceTest {
 
+    /**
+     * !!!!!!!!!!!!!!!!
+     * 线程池不允许使用 Executors 去创建，而是通过 ThreadPoolExecutor 的方式，这样的处理方式让写的同学更加明确线程池的运行规则，规避资源耗尽的风险。
+     * @param args
+     */
     public static void main(String[] args) {
         testCachedThreadPool();
         // testFixedThreadPool();
@@ -16,8 +21,8 @@ public class ExecutorServiceTest {
     }
 
     /**
-     * 1. 创建一个可缓存线程池，如果线程池长度超过处理需要，可灵活回收空闲线程，若无可回收，则新建线程。 2.
-     * 线程池为无限大，当执行第二个任务时第一个任务已经完成，会复用执行第一个任务的线程，而不用每次新建线程。
+     * 1. 创建一个可缓存线程池，如果线程池长度超过处理需要，可灵活回收空闲线程，若无可回收，则新建线程。 
+     * 2.线程池为无限大，当执行第二个任务时第一个任务已经完成，会复用执行第一个任务的线程，而不用每次新建线程。
      * 
      */
     private static void testCachedThreadPool() {
