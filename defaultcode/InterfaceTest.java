@@ -1,4 +1,4 @@
-package defaultcode;
+package Defaultcode;
 
 public class InterfaceTest implements Interface1,Interface2  {
     //class 中使用default会直接报错

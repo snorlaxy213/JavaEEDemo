@@ -1,4 +1,4 @@
-package thread;
+package Thread;
 
 /**
  * Thread.sleep(millisec) 方法会休眠当前正在执行的线程，millisec 单位为毫秒。

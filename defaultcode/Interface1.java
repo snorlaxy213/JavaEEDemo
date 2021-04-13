@@ -1,4 +1,4 @@
-package defaultcode;
+package Defaultcode;
 
 public interface Interface1 {
 

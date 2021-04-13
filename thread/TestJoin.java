@@ -1,4 +1,4 @@
-package thread;
+package Thread;
 
 public class TestJoin {
     private class A extends Thread {
